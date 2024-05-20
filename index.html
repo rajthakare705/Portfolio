@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/72f96a00d3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="contain1">
+    <div class="bubbles">
+      <span style="--i:11;"></span>
+      <span style="--i:12;"></span>
+      <span style="--i:24;"></span>
+      <span style="--i:10;"></span>
+      <span style="--i:14;"></span>
+      <span style="--i:23;"></span>
+      <span style="--i:18;"></span>
+      <span style="--i:16;"></span>
+      <span style="--i:19;"></span>
+      <span style="--i:20;"></span>
+      <span style="--i:22;"></span>
+      <span style="--i:25;"></span>
+      <span style="--i:18;"></span>
+      <span style="--i:21;"></span>
+      <span style="--i:15;"></span>
+      <span style="--i:13;"></span>
+      <span style="--i:26;"></span>
+      <span style="--i:17;"></span>
+      <span style="--i:13;"></span>
+      <span style="--i:28;"></span>
+      <span style="--i:11;"></span>
+      <span style="--i:12;"></span>
+      <span style="--i:24;"></span>
+      <span style="--i:10;"></span>
+      <span style="--i:14;"></span>
+      <span style="--i:23;"></span>
+      <span style="--i:18;"></span>
+      <span style="--i:16;"></span>
+      <span style="--i:19;"></span>
+      <span style="--i:20;"></span>
+      <span style="--i:22;"></span>
+      <span style="--i:25;"></span>
+      <span style="--i:18;"></span>
+      <span style="--i:21;"></span>
+      <span style="--i:15;"></span>
+      <span style="--i:13;"></span>
+      <span style="--i:26;"></span>
+      <span style="--i:17;"></span>
+      <span style="--i:13;"></span>
+      <span style="--i:28;"></span>
+      <span style="--i:19;"></span>
+      <span style="--i:20;"></span>
+      <span style="--i:22;"></span>
+      <span style="--i:25;"></span>
+      <span style="--i:18;"></span>
+      <span style="--i:21;"></span>
+    </div>
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+
+          <ul>
+            <li><a href="#">Home </a></li>
+            <li><a href="#about">About </a></li>
+            <li><a href="#work1">Work </a></li>
+            <li><a href="#sevices">Services </a></li>
+            <li><a href="#projects">Projects </a></li>
+            <li><a href="#contact">Contact </a></li>
+          </ul>
+        </nav>
+
+        <section class="firstSection">
+          <div class="leftSection">
+
+            <h2>Hi,I'm <span>Raj Thakare</span></h2>
+            <h1> A <span class="auto-type"> </span></h1>
+
+
+            <div class="buttons">
+              <!-- <button class="btn1" >Download Resume</button> -->
+              <a href="https://drive.google.com/file/d/1Eb8afxyb7jah9CQQ7KnsEMaOtDTQ5jGm/view?usp=sharing"
+                download="Raj_Thakare_Resume.pdf" class="btn1">Download Resume</a>
+
+              <a href="https://github.com/rajthakare705" class="btn1">Visit GitHub</a>
+            </div>
+
+          </div>
+
+          <div class="rightSection">
+            <img src="images/pic1.png">
+          </div>
+      </div>
+      <!-- -----------------------------about----------------------------- -->
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/mypic.png" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <br>
+              <p class="about_text">
+                BTech student at MIT Academy of Engineering who is passionate
+                about web development and has a solid grasp of the field. I have a
+                strong interest in coding and cyber security, and my internship
+                experience has helped me polish my talents in this area.I'm
+                particularly interested in JavaScript and React.js and I aspire to
+                make meaningful contributions in the realm of software
+                development.Presently, I am dedicated to expanding my knowledge in
+                AWS Cloud and Angular, striving for continuous growth and staying
+                abreast of emerging trends in the industry.
+              </p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('Experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                <p class="tab-links" onclick="opentab('Work')">Work</p>
+              </div>
+
+              <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                  <li><span>Application Programming</span><br />Python and C</li>
+                  <li><span>Web Development</span><br />Web Development app</li>
+                  <li><span>Cloud Computing</span><br />Amazon Web Services</li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="Experience">
+                <ul>
+                  <li><span>Python</span><br />Machine Learning</li>
+                  <li><span>Web </span><br />Website Development</li>
+                  <!-- <li><span>Android </span><br> Android /IOS apps</li> -->
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="Education">
+                <ul>
+                  <li>
+                    <span>MIT Academy Of Engineering</span><br />B.Tech. -
+                    Electronics and Telecommunication Engineering
+                  </li>
+                  <li>
+                    <span>HSC, Maharastra</span><br />JSSP college of Arts
+                    ,Commerce and Science, Kalyan
+                  </li>
+                  <li>
+                    <span>10 <sup>th</sup> ICSE, Maharastra</span><br />Meridian
+                    School,Kalyan
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="Work">
+                <ul>
+                  <!-- <li><span>UI/UX</span><br />Desingn</li> -->
+                  <li>
+                    <span>Web Development</span><br />Web Development Intern
+                  </li>
+                  <!-- <li>
+                  <span>Android Development</span><br />Building Android /IOS
+                  apps
+                </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- --------------------------Work --------------------------------- -->
+      <div id="work1">
+      <div id="Work">
+        <h1 class="sub-titlee">Work</h1>
+        <div class="timeline">
+
+          <div class="contain left-contain">
+            <img src="images/Vrs.jpg">
+            <div class="text-box t-up">
+              <h2> VRS MindCraft PVT. LTD</h2>
+              <small> Jun 2023 - Aug 2023 </small>
+              <p>Worked as an intern at VRS MindCraft, I was able to gain hands-on industry experience and work on a few
+                live projects while interacting with global clientele in remote working. My primary tech stack was CSS,
+                React JS.</p>
+              <a href="https://vrsmindcraft.com/">Learn more</a>
+              <!-- <span class="left-contain-arrow"></span> -->
+
+
+            </div>
+          </div>
+
+          <div class="contain right-contain">
+            <img src="images/ieee.png">
+
+            <div class="text-box t-bottom">
+              <h2> IEEE Research Paper</h2>
+              <small> 15 December 2023 </small>
+              <p><b>Empowering Education: Intoducing Machine Learning Algorithms for Feedback in LMS.</b>
+                <br>
+                <br>
+                During the 6<sup>th</sup> international conference on 'Emerging Technologies in Digital Transformation
+                and Aligned Education' (IEEE-PuneCon2023),jointly organized by IEEE Pune Section and COEP Technological
+                University,Pune.
+              </p>
+              <a href="https://ieeexplore.ieee.org/document/10450028">Learn more</a>
+              <!-- <span class="right-contain-arrow"> -->
+
+              </span>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+      <!---------------------------------Services------------------------->
+      <div id="sevices">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Development</h2>
+              <p>
+                "Delivering innovative web solutions tailored to your needs.
+                Specializing in front-end development, back-end integration,
+                and responsive design. Let's turn your ideas into stunning
+                digital experiences."
+              </p>
+              <!-- <a href="#">Learn more</a> -->
+            </div>
+
+            <div>
+              <i class="fa-solid fa-crop"></i>
+              <h2>Application Programming</h2>
+              <p>
+                "Provided innovative application programming services,
+                delivering tailored solutions for diverse client needs.
+                Proficient in creating efficient, scalable code to enhance
+                user experience and optimize functionality. Skilled in problem-solving
+                and collaboration to achieve project objectives.
+              </p>
+              <!-- <a href="#">Learn more</a> -->
+            </div>
+
+            <div>
+              <i class="fa-brands fa-app-store-ios"></i>
+              <h2>Cloud Computing</h2>
+              <p>
+                I offer cutting-edge cloud computing services designed to
+                revolutionize the way businesses operate. Leveraging the
+                power of cloud technology, my services provide scalable
+                solutions for storage, computation, and data management.
+              </p>
+              <!-- <a href="#">Learn more</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-----------------------------portfolio---------------------------------->
+      <div id="projects">
+      <div class="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Projects</h1>
+
+          <div class="worklist">
+
+            <div class="work_parent">
+              <div class="work">
+                <img src="images/work-1.jpg" />
+                <div class="layer">
+                  <h3><b>Fitness-Weber</b></h3>
+                  <!-- <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam cupiditate facilis iure deserunt autem quidem!
+                  </p> -->
+                  <a href="https://github.com/rajthakare705/Fitness-weber"><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="work_parent">
+              <div class="work">
+                <img src="images/work-2.jpg" />
+                <div class="layer">
+                  <h3><b>Learning Management System</b></h3>
+                  <!-- <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam cupiditate facilis iure deserunt autem quidem!
+                  </p> -->
+                  <a href="https://github.com/rajthakare705/ML-Algorithms-for-feedback-in-LMS"><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="work_parent">
+              <div class="work">
+                <img src="images/work-3.png" />
+                <div class="layer">
+                  <h3><b>FingerSketch</b></h3>
+                  <!-- <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Numquam cupiditate facilis iure deserunt autem quidem!
+                  </p> -->
+                  <a href="https://github.com/rajthakare705/FingerSketch-Interactive-Finger-based-Annotation-System-with-OpenCV"><i class="fa-solid fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- <a href="#" class="btn">See More</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- -----------------contact--------------------------- -->
+      <div id="contact">
+      <div class="contact_parent">
+        <div class="box3d">
+          <section class="contact">
+            <div class="content">
+              <h1 class="sub-title">Get In Touch</h1>
+              <br>
+              <p> Here you can let me know if you have any criticism,suggestion or problem,
+                I'm waiting to here your voice or see your message.
+              </p>
+            </div>
+
+            <div class="container1">
+              <div class="contactInfo">
+
+                <div class="box">
+                  <div>
+                    <i class="fa-solid fa-map"> Address</i>
+                    <div class="text">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, inventore?</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div>
+                    <i class="fa fa-envelope-o"> Email</i>
+                    <div class="text">
+                      <p>rajthakare795@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="box">
+                  <div>
+                    <i class="fa fa-phone"> Phone No.</i>
+                    <div class="text">
+                      <p>+91 9370580650</p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+              </div>
+
+              <div class="contactForm">
+                <form id="contactForm">
+                  <h2>Send Message</h2>
+
+                  <div class="inputBox">
+                    <input id="firstName" type="text" placeholder="Enter Your First Name" Name="" required="required">
+                    <span></span>
+                  </div>
+
+                  <div class="inputBox">
+                    <input id="lastName" type="text" placeholder="Enter Your Last Name" Name="" required="required">
+                    <span></span>
+                  </div>
+
+                  <div class="inputBox">
+                    <input id="email" type="email" Name="" placeholder="Email" required="required">
+                    <span></span>
+                  </div>
+
+                  <div class="inputBox">
+                    <textarea id="message" required="required" rows="6" cols="60"
+                      placeholder="Type Your Message"></textarea>
+                    <span></span>
+                  </div>
+
+                  <div class="inputBox btn-centre">
+                    <input type="submit" value="Send">
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+      <!-- -------------------Footer----------- -->
+      <footer>
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+          <!-- <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li> -->
+          <li>
+            <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+          </li>
+          <li>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/raj-thakare705/"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </li>
+          <li>
+            <a href="https://github.com/rajthakare705"><ion-icon name="logo-github"></ion-icon></a>
+          </li>
+        </ul>
+        <p>All Rights Reserved</p>
+      </footer>
+
+      <!-- <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact me</h1>
+        <p>contact@exp.com</p>
+        <p>9370580650</p>
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkden"></i></a>
+        </div>
+      </div>
+      <div class="contact-left"></div>
+      <form >
+        <input type="text" name="Name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your email">
+        <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+        <button type="submit">submit</button>
+      </form>
+    </div>
+  </div>
+</div> -->
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+      <script src="script.js"></script>
+      <script>
+        var typed = new Typed(".auto-type", {
+          strings: [, "Coder", "Web Developer", "Fitness Freak"],
+          typeSpeed: 100,
+          backSpeed: 100,
+          loop: true,
+        });
+      </script>
+
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+      <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+          for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+          }
+          for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>
+
+    </div>
+    
+    
+</body>
+
+</html>
